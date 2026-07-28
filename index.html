@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="芒果GEO - 专注AI驱动的GEO优化全场景服务解决方案，覆盖全业务链路，适配多元需求，兼顾流量获取与品牌数字资产长期沉淀。">
+    <meta name="keywords" content="芒果GEO,GEO优化,AI营销,代运营,数字资产,内容优化">
+    <title>芒果GEO - AI驱动的GEO优化全场景服务解决方案</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ==================== 顶部导航栏 ==================== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <a href="#hero" class="logo">
+                <img class="logo-icon" src="logo.png" alt="芒果GEO Logo">
+                <span class="logo-text">芒果<span class="logo-accent">GEO</span></span>
+            </a>
+
+            <!-- 桌面端导航 -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link">首页</a>
+                <a href="#core-services" class="nav-link">核心服务</a>
+                <a href="#packages" class="nav-link">服务套餐</a>
+                <a href="#guide" class="nav-link">选择指南</a>
+                <a href="#service-detail" class="nav-link">合作流程</a>
+                <a href="#contact" class="nav-link">联系我们</a>
+                <a href="#" class="nav-cta" onclick="showContact(event)">立即咨询</a>
+            </nav>
+
+            <!-- 移动端汉堡菜单按钮 -->
+            <button class="hamburger" id="hamburger" aria-label="菜单" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==================== Hero 首屏区域 ==================== -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-badge">AI驱动的GEO优化全场景服务</p>
+            <h1 class="hero-title">让AI搜索引擎<br><span class="highlight">主动推荐你的品牌</span></h1>
+            <p class="hero-subtitle">覆盖全业务链路，适配多元需求，兼顾流量获取与品牌数字资产长期沉淀</p>
+            <div class="hero-actions">
+                <button class="btn btn-primary" onclick="showContact(event)">立即咨询</button>
+                <a href="#packages" class="btn btn-outline">查看套餐</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-num">100+</span>
+                    <span class="stat-label">服务城市</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">6大</span>
+                    <span class="stat-label">服务套餐</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">60%+</span>
+                    <span class="stat-label">推荐率承诺</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 核心服务介绍 ==================== -->
+    <section class="section" id="core-services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">核心服务定位</span>
+                <h2 class="section-title">为什么选择芒果GEO？</h2>
+                <p class="section-desc">从轻量化工具到全案代运营，满足企业全阶段GEO优化需求</p>
+            </div>
+            <div class="features-grid">
+                <!-- 特性 1 -->
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="6" width="36" height="36" rx="8" stroke="currentColor" stroke-width="2.5"/><path d="M16 24h16M24 16v16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3 class="feature-title">覆盖全业务链路</h3>
+                    <p class="feature-desc">提供自助使用、季度见效、包年沉淀一体化服务，满足企业从轻量化工具到全案代运营的全阶段需求</p>
+                </div>
+                <!-- 特性 2 -->
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2.5"/><path d="M16 24a8 8 0 0116 0M24 16a8 8 0 010 16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3 class="feature-title">适配多元需求</h3>
+                    <p class="feature-desc">涵盖工具使用、技能培训、深度陪跑、定制OEM等多种服务模式，适配不同规模、不同阶段企业</p>
+                </div>
+                <!-- 特性 3 -->
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M24 6l5 13h14l-11 9 4 14-12-8-12 8 4-14-11-9h14z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3 class="feature-title">兼顾多元目标</h3>
+                    <p class="feature-desc">既帮助企业快速获取精准流量与转化效果，又长期沉淀品牌数字资产，实现短期效果与长期价值双赢</p>
+                </div>
+                <!-- 特性 4 -->
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="10" width="36" height="28" rx="4" stroke="currentColor" stroke-width="2.5"/><path d="M14 18h20M14 24h20M14 30h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3 class="feature-title">六大套餐全覆盖</h3>
+                    <p class="feature-desc">从小微企业自助版、代运营版、发稿资产版，到企业培训、顾问陪跑、服务商OEM定制，一站式满足所有营销优化需求</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 六大服务套餐 ==================== -->
+    <section class="section section-alt" id="packages">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">服务套餐</span>
+                <h2 class="section-title">六大服务套餐</h2>
+                <p class="section-desc">覆盖企业从轻量自助到深度代运营的全场景需求</p>
+            </div>
+            <div class="packages-grid">
+                <!-- 套餐 1 -->
+                <div class="package-card reveal">
+                    <div class="package-head">
+                        <span class="package-badge">套餐一</span>
+                        <h3 class="package-name">轻量化自助版</h3>
+                    </div>
+                    <div class="package-price"><span class="price-num">4980</span><span class="price-unit">元/年</span></div>
+                    <p class="package-tag">低门槛投入 · 高自主权 · 易上手</p>
+                    <ul class="package-features">
+                        <li>GEO工具全功能1年使用权（赠50次策划/5项监测）</li>
+                        <li>年度2000篇AI优化内容训练额度</li>
+                        <li>专属社群 + 1对1基础指导</li>
+                    </ul>
+                    <div class="package-suit">适合：预算有限、人力精简的初创与小微团队</div>
+                    <button class="btn btn-card" onclick="showContact(event)">立即咨询</button>
+                </div>
+
+                <!-- 套餐 2（热门） -->
+                <div class="package-card package-featured reveal">
+                    <div class="popular-tag">最受欢迎</div>
+                    <div class="package-head">
+                        <span class="package-badge">套餐二</span>
+                        <h3 class="package-name">包效果代运营版</h3>
+                    </div>
+                    <div class="package-price"><span class="price-num">16800</span><span class="price-unit">元起/季度</span></div>
+                    <p class="package-tag">全包托管 · 每日优化 · 承诺推荐率60%+</p>
+                    <ul class="package-features">
+                        <li>每周3次反馈，核心词排名进前五</li>
+                        <li>词包/文章/卖点策划、电话展现、排名稳定</li>
+                        <li>网站优化、自媒体代运营、权威媒体发稿</li>
+                        <li>月度/季度复盘总结</li>
+                    </ul>
+                    <div class="package-suit">适合：追求快速见效、高效转化的成长型与行业头部企业</div>
+                    <button class="btn btn-card" onclick="showContact(event)">立即咨询</button>
+                </div>
+
+                <!-- 套餐 3 -->
+                <div class="package-card reveal">
+                    <div class="package-head">
+                        <span class="package-badge">套餐三</span>
+                        <h3 class="package-name">数字资产沉淀版</h3>
+                    </div>
+                    <div class="package-price"><span class="price-num">26800</span><span class="price-unit">元/年</span></div>
+                    <p class="package-tag">全托管多渠道 · 每日反馈 · 透明执行</p>
+                    <ul class="package-features">
+                        <li>6000+篇自媒体宣发</li>
+                        <li>60+篇权威新闻源宣发</li>
+                        <li>40+篇垂直媒体投放</li>
+                    </ul>
+                    <div class="package-suit">适合：注重品牌曝光、沉淀数字资产的小微企业</div>
+                    <button class="btn btn-card" onclick="showContact(event)">立即咨询</button>
+                </div>
+
+                <!-- 套餐 4 -->
+                <div class="package-card reveal">
+                    <div class="package-head">
+                        <span class="package-badge">套餐四</span>
+                        <h3 class="package-name">企业定制化培训</h3>
+                    </div>
+                    <div class="package-price"><span class="price-num">39800</span><span class="price-unit">元/年</span></div>
+                    <p class="package-tag">定制课程 · 赋能团队 · 工具+指导全套</p>
+                    <ul class="package-features">
+                        <li>≥3小时定制课程（线上/线下）</li>
+                        <li>赠5000篇内容训练额度</li>
+                        <li>一年社群基础指导</li>
+                    </ul>
+                    <div class="package-suit">适合：已有运营团队，希望建立自主优化能力的企业</div>
+                    <button class="btn btn-card" onclick="showContact(event)">立即咨询</button>
+                </div>
+
+                <!-- 套餐 5 -->
+                <div class="package-card reveal">
+                    <div class="package-head">
+                        <span class="package-badge">套餐五</span>
+                        <h3 class="package-name">顾问陪跑赋能版</h3>
+                    </div>
+                    <div class="package-price"><span class="price-num">19.8</span><span class="price-unit">万元/年</span></div>
+                    <p class="package-tag">专家一对一 · 实操带教 · 效果持续迭代</p>
+                    <ul class="package-features">
+                        <li>全年深度指导，打造专业运营团队</li>
+                        <li>每季度3小时培训+答疑</li>
+                        <li>赠20000篇内容训练额度</li>
+                        <li>月度复盘 + 季度策略会</li>
+                    </ul>
+                    <div class="package-suit">适合：头部企业、知名品牌，对效果与团队能力高要求</div>
+                    <button class="btn btn-card" onclick="showContact(event)">立即咨询</button>
+                </div>
+
+                <!-- 套餐 6 -->
+                <div class="package-card reveal">
+                    <div class="package-head">
+                        <span class="package-badge">套餐六</span>
+                        <h3 class="package-name">OEM工具定制版</h3>
+                    </div>
+                    <div class="package-price"><span class="price-num">39800</span><span class="price-unit">元/年</span></div>
+                    <p class="package-tag">贴牌定制 · 独立域名 · 专属SaaS</p>
+                    <ul class="package-features">
+                        <li>赠20000点内容生成额度</li>
+                        <li>免费3小时培训+全年技术支持</li>
+                        <li>自定义域名、LOGO贴牌、专属SaaS</li>
+                    </ul>
+                    <div class="package-suit">适合：有客户与优化师团队，需增值服务的运营服务商</div>
+                    <button class="btn btn-card" onclick="showContact(event)">立即咨询</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 套餐快速选择指南 ==================== -->
+    <section class="section" id="guide">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">选择指南</span>
+                <h2 class="section-title">套餐快速选择指南</h2>
+                <p class="section-desc">根据企业类型和核心需求，快速找到最适合的服务方案</p>
+            </div>
+            <!-- 桌面端表格 -->
+            <div class="table-wrapper reveal">
+                <table class="guide-table">
+                    <thead>
+                        <tr>
+                            <th>套餐</th>
+                            <th>企业类型</th>
+                            <th>核心需求</th>
+                            <th>推荐套餐</th>
+                            <th>价格</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="row-badge">套餐一</span></td>
+                            <td>小微企业/初创</td>
+                            <td>自主优化、低成本</td>
+                            <td>轻量化自助版</td>
+                            <td class="price-cell">4980元/年</td>
+                        </tr>
+                        <tr>
+                            <td><span class="row-badge">套餐二</span></td>
+                            <td>快速增长型</td>
+                            <td>快速见效、高转化</td>
+                            <td>包效果代运营版</td>
+                            <td class="price-cell">16800元起/季度</td>
+                        </tr>
+                        <tr>
+                            <td><span class="row-badge">套餐三</span></td>
+                            <td>品牌资产型</td>
+                            <td>曝光、沉淀资产</td>
+                            <td>数字资产沉淀版</td>
+                            <td class="price-cell">26800元/年</td>
+                        </tr>
+                        <tr>
+                            <td><span class="row-badge">套餐四</span></td>
+                            <td>团队建设型</td>
+                            <td>赋能、自主运营</td>
+                            <td>企业定制化培训</td>
+                            <td class="price-cell">39800元/年</td>
+                        </tr>
+                        <tr>
+                            <td><span class="row-badge">套餐五</span></td>
+                            <td>头部/品牌方</td>
+                            <td>深度陪跑、全案顾问</td>
+                            <td>顾问陪跑赋能版</td>
+                            <td class="price-cell">19.8万元/年</td>
+                        </tr>
+                        <tr>
+                            <td><span class="row-badge">套餐六</span></td>
+                            <td>营销服务商</td>
+                            <td>贴牌、对外交付</td>
+                            <td>OEM工具定制版</td>
+                            <td class="price-cell">39800元/年</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- 移动端卡片列表 -->
+            <div class="guide-cards-mobile">
+                <div class="guide-card">
+                    <span class="row-badge">套餐一</span>
+                    <p><strong>小微企业/初创</strong> · 自主优化、低成本</p>
+                    <p class="price-cell">轻量化自助版 — 4980元/年</p>
+                </div>
+                <div class="guide-card">
+                    <span class="row-badge">套餐二</span>
+                    <p><strong>快速增长型</strong> · 快速见效、高转化</p>
+                    <p class="price-cell">包效果代运营版 — 16800元起/季度</p>
+                </div>
+                <div class="guide-card">
+                    <span class="row-badge">套餐三</span>
+                    <p><strong>品牌资产型</strong> · 曝光、沉淀资产</p>
+                    <p class="price-cell">数字资产沉淀版 — 26800元/年</p>
+                </div>
+                <div class="guide-card">
+                    <span class="row-badge">套餐四</span>
+                    <p><strong>团队建设型</strong> · 赋能、自主运营</p>
+                    <p class="price-cell">企业定制化培训 — 39800元/年</p>
+                </div>
+                <div class="guide-card">
+                    <span class="row-badge">套餐五</span>
+                    <p><strong>头部/品牌方</strong> · 深度陪跑、全案顾问</p>
+                    <p class="price-cell">顾问陪跑赋能版 — 19.8万/年</p>
+                </div>
+                <div class="guide-card">
+                    <span class="row-badge">套餐六</span>
+                    <p><strong>营销服务商</strong> · 贴牌、对外交付</p>
+                    <p class="price-cell">OEM工具定制版 — 39800元/年</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 合作流程 ==================== -->
+    <section class="section section-alt" id="service-detail">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">合作流程</span>
+                <h2 class="section-title">四步开启GEO优化</h2>
+                <p class="section-desc">清晰透明的合作流程，让每一步优化都有迹可循</p>
+            </div>
+            <div class="service-list">
+                <!-- 步骤 1 -->
+                <div class="service-item reveal">
+                    <div class="service-num">01</div>
+                    <div class="service-body">
+                        <h3 class="service-title">需求诊断</h3>
+                        <p class="service-desc">深入了解企业行业、目标与现状，诊断AI搜索可见度与优化基础，明确发力方向。</p>
+                    </div>
+                </div>
+                <!-- 步骤 2 -->
+                <div class="service-item reveal">
+                    <div class="service-num">02</div>
+                    <div class="service-body">
+                        <h3 class="service-title">方案定制</h3>
+                        <p class="service-desc">根据预算与需求匹配最优套餐，制定专属GEO优化执行方案与里程碑目标。</p>
+                    </div>
+                </div>
+                <!-- 步骤 3 -->
+                <div class="service-item reveal">
+                    <div class="service-num">03</div>
+                    <div class="service-body">
+                        <h3 class="service-title">执行优化</h3>
+                        <p class="service-desc">内容生产、AI训练、媒体宣发、排名监测，每日推进每周反馈，确保落地见效。</p>
+                    </div>
+                </div>
+                <!-- 步骤 4 -->
+                <div class="service-item reveal">
+                    <div class="service-num">04</div>
+                    <div class="service-body">
+                        <h3 class="service-title">效果复盘</h3>
+                        <p class="service-desc">数据追踪、效果评估、策略迭代，月度季度复盘持续优化，保障长期增长。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 联系我们 ==================== -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="contact-wrap">
+                <div class="contact-info reveal">
+                    <span class="section-tag">联系我们</span>
+                    <h2 class="section-title">开启你的GEO优化之旅</h2>
+                    <p class="section-desc">无论您处于哪个阶段，我们都能为您提供最合适的GEO优化方案</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-label">业务热线（微信同号-侯先生）</span>
+                                <a href="tel:18319478701" class="contact-value">183-1947-8701</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-label">服务网点</span>
+                                <span class="contact-value">深圳、北京、上海、佛山、长沙等全国100+城市</span>
+                            </div>
+                        </div>
+                        <!-- <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" stroke="currentColor" stroke-width="2"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-label">官方网站</span>
+                                <span class="contact-value">芒果GEO</span>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="contact-cta-card reveal">
+                    <h3>免费咨询方案</h3>
+                    <p>点击下方按钮，立即获取专属GEO优化方案</p>
+                    <button class="btn btn-primary btn-lg" onclick="showContact(event)">立即咨询</button>
+                    <p class="contact-tip">电话/微信：18319478701</p>
+                    <div class="qr-block">
+                        <img class="qr-img" src="wechat-qr.png" alt="微信二维码">
+                        <p class="qr-label">扫码添加微信</p>
+                        <p class="qr-sub">一对一专属顾问咨询</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 页脚 ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#hero" class="logo">
+                        <img class="logo-icon" src="logo.png" alt="芒果GEO Logo">
+                        <span class="logo-text">芒果<span class="logo-accent">GEO</span></span>
+                    </a>
+                    <p class="footer-slogan">专注AI驱动的GEO优化全场景服务解决方案</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#core-services">核心服务</a>
+                    <a href="#packages">服务套餐</a>
+                    <a href="#guide">选择指南</a>
+                    <a href="#service-detail">合作流程</a>
+                    <a href="#contact">联系我们</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>2022-2026 &copy;芒果GEO 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== 咨询弹窗 ==================== -->
+    <div class="modal-overlay" id="contactModal">
+        <div class="modal-card">
+            <button class="modal-close" onclick="closeContact()" aria-label="关闭">&times;</button>
+            <div class="modal-icon">
+                <svg viewBox="0 0 48 48" fill="none"><path d="M44 24a20 20 0 11-40 0 20 20 0 0140 0z" fill="url(#modalGrad)"/><path d="M18 20a6 6 0 0112 0v2M20 20v6a2 2 0 002 2h4a2 2 0 002-2v-6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><defs><linearGradient id="modalGrad" x1="4" y1="4" x2="44" y2="44"><stop offset="0%" stop-color="#FCD34D"/><stop offset="100%" stop-color="#F59E0B"/></linearGradient></defs></svg>
+            </div>
+            <h3 class="modal-title">联系芒果GEO</h3>
+            <p class="modal-desc">专业的GEO优化顾问，为您提供一对一咨询服务</p>
+            <div class="modal-phone">
+                <a href="tel:18319478701">18319478701</a>
+                <span class="modal-phone-label">电话/微信同号（侯先生）</span>
+            </div>
+            <div class="modal-qr">
+                <img class="modal-qr-img" src="wechat-qr.png" alt="微信二维码">
+                <p class="modal-qr-label">扫码添加微信好友</p>
+            </div>
+            <p class="modal-tip">手机点击号码可直接拨打，或扫码添加微信咨询</p>
+        </div>
+    </div>
+
+    <!-- 返回顶部按钮 -->
+    <button class="back-to-top" id="backToTop" aria-label="返回顶部">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
